@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #111927;
+  background-image: radial-gradient(at 47% 33%, hsl(271.61deg, 92%, 43%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(289.71deg, 95%, 36%) 0, transparent 55%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.formBody {
+  backdrop-filter: blur(11px) saturate(82%);
+  -webkit-backdrop-filter: blur(11px) saturate(82%);
+  background-color: rgba(11, 11, 56, 0.32);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 450px;
+  height: auto;
+  color: white;
+}
+
+.paragraphTitle {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.inputLogin {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.inputIcon {
+  color: white;
+}
+
+.inputCaixa {
+  color: white;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.forgetPassword {
+  text-decoration: none;
+  color: aqua;
+}
+.forgetPassword:hover {
+  color: rgb(7, 192, 192);
+  transition: 0.4s;
+}
+
+.footer {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: -30px;
+  font-size: 12px;
+}
+
+.paragraphDescription {
+  font-size: 14px;
+  color: antiquewhite;
+  margin-top: -20px;
+  padding-bottom: 21px;
+}
+
+.btnEnter {
+  border: 2px solid;
+  color: greenyellow;
+  width: 100%;
+}
+.btnEnter:hover {
+  background-color: transparent;
+  color: greenyellow;
+  transition: 0.4s;
+}
+
+.creatAccount {
+  text-decoration: none;
+  color: aqua;
+}
+.creatAccount:hover {
+  color: rgb(7, 192, 192);
+  transition: 0.4s;
+}
+
+@media (max-width: 480px) {
+  .formBody {
+    width: 350px;
+    height: auto;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .formBody {
+    width: 280px;
+    height: auto;
+  }
+}
+.textLogin {
+  color: white;
+}
+
+.textSelect {
+  color: rgb(202, 201, 201);
+}
+
+/*# sourceMappingURL=style.css.map */
